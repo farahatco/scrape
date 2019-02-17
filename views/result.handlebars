@@ -1,0 +1,33 @@
+<div class="container">
+      <div class="jumbotron">
+            <h2>understand How's Interviewer ask you.....</h2>
+            <hr class="my-4">
+            <h4> Node js and express Interview Questions </h4>
+            <p> You can click on any question and add your note</p>
+      </div>
+</div>
+
+<div class="container">
+      <div class="row">
+            <div class="col-6">
+                  <ul class="list-group">
+                        {{#each result}}
+
+                        <li class="list-group-item bg-primary text-light question" data-id={{this._id}} id="question">
+                              {{this.question}}</li>
+                        <p>
+                              <li class="list-group-item bg-dark text-light" id="answer">{{this.answer}}</li>
+                        </p>
+                        <br>
+
+                        {{/each}}
+                  </ul>
+            </div>
+            <div class="col-1">
+
+            </div>
+            <div class="col-5">
+                  <div id="notes"></div>
+            </div>
+      </div>
+</div>

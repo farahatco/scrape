@@ -1,0 +1,13 @@
+#notes {
+  float: right;
+    width: 100%;
+  }
+textarea, input {
+    display: block;
+    width: 100%;
+    background-color: #FCF5C7;
+  }
+  textarea {
+    height: 400px;
+    font-size: 18px;
+  }
